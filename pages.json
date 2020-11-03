@@ -1,0 +1,57 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app第一个项目"
+			}
+		},
+		{
+			"path" : "pages/asynchronous/index",
+			"style" : {}
+		},
+		{
+			"path" : "pages/vuexApply/index",
+			"style" : {}
+		},
+		{
+			"path" : "pages/mine/index",
+			"style" : {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#4B4B4B",
+		"selectedColor": "#4B4B4B",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tabBarIcon/icon_properties_not selected@3x.png",
+				"selectedIconPath": "static/images/tabBarIcon/icon_properties_selected@3x.png",
+				"text": "基础"
+			},{
+				"pagePath": "pages/asynchronous/index",
+				"iconPath": "static/images/tabBarIcon/icon_order_not selected@3x.png",
+				"selectedIconPath": "static/images/tabBarIcon/icon_order_ selected@3x.png",
+				"text": "异步"
+			},{
+				"pagePath": "pages/vuexApply/index",
+				"iconPath": "static/images/tabBarIcon/icon_message_not selected@3x.png",
+				"selectedIconPath": "static/images/tabBarIcon/icon_message_selected@3x.png",
+				"text": "vuex应用"
+			},{
+				"pagePath": "pages/mine/index",
+				"iconPath": "static/images/tabBarIcon/icon_me_not selected@3x.png",
+				"selectedIconPath": "static/images/tabBarIcon/icon_me_selected@3x.png",
+				"text": "我的"
+			}
+		]
+	}
+}
